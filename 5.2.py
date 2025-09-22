@@ -12,12 +12,9 @@ while True:
             print(num_1 / num_2)
         else:
             print('invalid operator')
-        question = input("Do you want to continue? y or q: ")
-        if question == 'y':
+        question = input("Do you want to continue? y or yes: ")
+        if question == 'y' or question == 'yes':
             print('Ok, let\'s continue')
-        elif question == 'q':
-            print('Ok, let\'s quit')
-            break
         else:
             print('invalid command. Only y or q')
             break
